@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/site-logo.png" type="image/x-icon" />
+    <title>Calculadora de Berries - One Piece</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href=""
+          ><img src="./img/One-Piece-Logo.png" alt="" width="150px"
+        /></a>
+      </div>
+      <ul class="links-header">
+        <li><a href="#conversor">Conversor</a></li>
+        <li><a href="#">Tabela de conversão</a></li>
+        <li><a href="#">Artigos</a></li>
+      </ul>
+    </header>
+
+    <main class="cambio-main">
+      <div class="titulo-conversor">
+        <img src="./img/berry-logo.png" alt="" width="35px" />
+        <h1 class="title" id="conversor">Conversor de BERRY para BRL</h1>
+      </div>
+      <div class="moedas">
+        <label for="berry">Berry: </label>
+        <input
+          class="input is-normal"
+          type="text"
+          placeholder="Berries"
+          id="berry"
+          name="berry"
+        />
+        <label for="berry">Reais: </label>
+        <input
+          class="input is-normal"
+          type="text"
+          placeholder="Reais(BRL)"
+          id="reais"
+          name="reais"
+        />
+        <button class="button is-danger" id="converter">Converter</button>
+
+        <div class="moedas-cotacao">
+          <p class="berry-cotacao">1 Berry = 0.0584 BRL</p>
+        </div>
+      </div>
+    </main>
+    <script src="./js/converter.js"></script>
+  </body>
+</html>

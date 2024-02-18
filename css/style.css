@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+ul,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: white !important;
+  font-size: 1.2rem !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+button {
+  margin-top: 12px !important;
+}
+
+label {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #343a40;
+}
+
+.links-header {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.cambio-main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.titulo-conversor {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.moedas {
+  margin-top: 15px;
+  background-color: #007bff;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.moedas-cotacao {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.berry-cotacao {
+  color: #28a745;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+}
